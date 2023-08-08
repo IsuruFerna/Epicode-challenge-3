@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+/* 
+font-family: 'Prata', serif; 
+font-family: 'Montserrat', sans-serif;
+*/
+
+body {
+   margin: 0;
+   font-family: "Montserrat", sans-serif;
+}
+
+.main-section {
+   padding: 20px;
+}
+
+.image-container {
+   height: 500px;
+   background-size: cover;
+}
+
+#img-lake-braies {
+   background-image: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&");
+}
+
+#img-san-candido {
+   background-image: url("https://i.pinimg.com/originals/88/c3/a4/88c3a47148abc1f0326ed5f17fb3579d.jpg");
+}
+
+#img-brunico {
+   background-image: url("https://cdn-italiani-media.italiani.it/site-italiani/2021/07/Brunico-g.jpg");
+}
+
+#img-cortina-di-ampezzo {
+   background-image: url("https://1.bp.blogspot.com/-liootblo-KA/XP9PUw2gtKI/AAAAAAABQcU/iGTu7FeT4q0vIBrK_-00rCDCfUX6gg8pwCLcBGAs/s1600/cortina%2Bd%2527ampezzo%2Bcosa%2Bvedere.JPG");
+}
+
+#img-bressanone {
+   background-image: url("https://www.italyproguide.com/wp-content/uploads/2020/01/DSC05511.jpg");
+}
+
+#img-vipiteno {
+   background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/the-colorful-town-of-vipiteno-on-a-summer-day-trentino-alto-adige-northern-italy-stefano-valeri.jpg");
+}
+
+#gradient-lake-braies {
+   background: linear-gradient(45deg, #22e2f3, #5bb190);
+}
+
+#gradient-san-candido {
+   background: linear-gradient(45deg, #2293f3, #489a7b);
+}
+
+#gradient-brunico {
+   background: linear-gradient(45deg, #5cb4ff, #2edf76);
+}
+
+#gradient-cortina-di-ampezzo {
+   background: linear-gradient(45deg, #8ac4f5, #cacdcf);
+}
+
+#gradient-bressanone {
+   background: linear-gradient(45deg, #007fff, #fefefe);
+}
+
+#gradient-vipiteno {
+   background: linear-gradient(45deg, #007fff, #6beb09);
+}
+
+.link-lake-braies {
+   color: #5bb190;
+}
+
+.link-san-candido {
+   color: #489a7b;
+}
+
+.link-brunico {
+   color: #2edf76;
+}
+
+.link-cortina-di-ampezzo {
+   color: #8ac4f5;
+}
+
+.link-bressanone {
+   color: #007fff;
+}
+
+.link-vipiteno {
+   color: #007fff;
+}
+
+h1 {
+   font-size: 64px;
+   margin-top: 0;
+}
+
+h3 {
+   font-size: 24px;
+}
+
+h1,
+h3 {
+   font-family: "Prata", serif;
+   font-weight: 400;
+   margin-bottom: 0;
+}
+
+p a {
+   font-weight: 600;
+   font-style: italic;
+}
+
+h6 {
+   padding: 22px;
+   margin-bottom: 0;
+   margin-top: 56px;
+   color: #fff;
+   border-radius: 6px;
+}
+
+ul li {
+   padding: 6px 0 22px 0;
+   list-style: none;
+   border-top: solid #dfdfdf 1px;
+}
+
+ul li a {
+   text-decoration: none;
+}
+
+footer {
+   background-color: #000;
+   padding: 16px;
+}
+
+footer a {
+   color: #fff;
+}
